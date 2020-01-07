@@ -1,0 +1,9 @@
+• src
++---• app
+|   +--• home
+|   |  |--home.component.ts|.html
+|   |
+|   |--app.module.ts
+|   |--app-routing.module.ts (route configs)
+|
+|--index.html (cdn path for bootstrap)
