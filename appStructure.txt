@@ -1,19 +1,18 @@
 • src
 +---• app
 |   +--• auth
+|   |  |
+|   |  +--• signup
+|   |  |  |
+|   |  |  |--signup.component.ts | html | css 
+|   |  |
+|   |  +---• login
+|   |  |   |
+|   |  |   |--login.component.ts | html | css
 |   |  
-|   +---• signup
-|   |   |
-|   |   |--signup.component.css
-|   |   |--signup.component.ts
-|   |   |--signup.component.html
-|   |   |--signup.component.spec.ts
-|   +---• login
-|   |   |
-|   |   |--login.component.css
-|   |   |--login.component.ts
-|   |   |--login.component.html
-|   |   |--login.component.spec.ts
+|   +--• training
+|   |  |
+|   |  |--training.component.ts | html | css
 |   |
 |   |--app.module.ts
 |
