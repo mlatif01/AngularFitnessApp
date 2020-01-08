@@ -1,9 +1,20 @@
 • src
 +---• app
-|   +--• home
-|   |  |--home.component.ts|.html
+|   +--• auth
+|   |  
+|   +---• signup
+|   |   |
+|   |   |--signup.component.css
+|   |   |--signup.component.ts
+|   |   |--signup.component.html
+|   |   |--signup.component.spec.ts
+|   +---• login
+|   |   |
+|   |   |--login.component.css
+|   |   |--login.component.ts
+|   |   |--login.component.html
+|   |   |--login.component.spec.ts
 |   |
 |   |--app.module.ts
-|   |--app-routing.module.ts (route configs)
 |
 |--index.html (cdn path for bootstrap)
