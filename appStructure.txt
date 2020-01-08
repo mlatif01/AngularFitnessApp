@@ -18,6 +18,16 @@
 |   |  |
 |   |  |--welcome.component.ts | html | css
 |   |
+|   +--• navigation
+|   |  |
+|   |  +--• header
+|   |  |  |
+|   |  |  |--header.component.ts | html | css 
+|   |  |
+|   |  +---• sidenav-list
+|   |  |   |
+|   |  |   |--sidenav-list.component.ts | html | css
+|   |
 |   |--app.module.ts
 |
 |--index.html (cdn path for bootstrap)
