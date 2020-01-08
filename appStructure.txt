@@ -14,6 +14,10 @@
 |   |  |
 |   |  |--training.component.ts | html | css
 |   |
+|   +--• welcome
+|   |  |
+|   |  |--welcome.component.ts | html | css
+|   |
 |   |--app.module.ts
 |
 |--index.html (cdn path for bootstrap)
