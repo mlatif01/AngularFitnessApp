@@ -7,4 +7,8 @@ export class TrainingService {
     { id: 'lunges', name: 'Lunges', duration: 120, calories: 18 },
     { id: 'burpees', name: 'Burpees', duration: 60, calories: 8 }
   ];
+
+  getAvailableExercises() {
+    return this.availableExercises.slice();
+  }
 }
