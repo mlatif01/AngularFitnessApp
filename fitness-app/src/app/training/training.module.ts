@@ -1,5 +1,3 @@
-import { AngularFirestoreModule } from "@angular/fire/firestore";
-
 import { TrainingComponent } from "../training/training.component";
 import { CurrentTrainingComponent } from "../training/current-training/current-training.component";
 import { NewTrainingComponent } from "../training/new-training/new-training.component";
@@ -7,6 +5,7 @@ import { PastTrainingComponent } from "../training/past-training/past-training.c
 import { StopTrainingComponent } from "../training/current-training/stop-training.component";
 import { NgModule } from "@angular/core";
 import { SharedModule } from "../shared/shared.module";
+import { TrainingRoutingModule } from "./training-routing.module";
 
 @NgModule({
   declarations: [
@@ -16,7 +15,7 @@ import { SharedModule } from "../shared/shared.module";
     PastTrainingComponent,
     StopTrainingComponent
   ],
-  imports: [AngularFirestoreModule, SharedModule],
+  imports: [SharedModule, TrainingRoutingModule],
   exports: [],
   entryComponents: [StopTrainingComponent]
 })
