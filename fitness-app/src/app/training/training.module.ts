@@ -2,6 +2,7 @@ import { CommonModule } from "@angular/common";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MaterialModule } from "../material.module";
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { AngularFirestoreModule } from "@angular/fire/firestore";
 
 import { TrainingComponent } from "../training/training.component";
 import { CurrentTrainingComponent } from "../training/current-training/current-training.component";
@@ -23,7 +24,8 @@ import { NgModule } from "@angular/core";
     FormsModule,
     ReactiveFormsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AngularFirestoreModule
   ],
   exports: [],
   entryComponents: [StopTrainingComponent]
